@@ -4,7 +4,7 @@ import Header from './beranda-pages-header';
 import { Container,Row,Col, Dropdown } from 'react-bootstrap';
 import { connect } from "react-redux";
 import { checkTransaction } from "../redux/actions/listTransactions";
-import { updateTransactionUser } from "../redux/actions/updateTransaction";
+//import { updateTransactionUser } from "../redux/actions/updateTransaction";
 import { findTransactionUser } from "../redux/actions/findTransaction";
 import moment from 'moment';
 

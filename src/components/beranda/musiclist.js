@@ -29,7 +29,7 @@ class MusicList extends Component {
                     </div>
                     <div className="text-light" id="tv-show"></div>
                     <Row>
-                        
+                        <Image src={`https://dumbsound-backend-777.herokuapp.com/public/0151214961d6b4c4c87c542e1314ce8a.png`} style={setGambar} />
                         {   
                             musicX.slice(-6).map( x => {
                                 return (

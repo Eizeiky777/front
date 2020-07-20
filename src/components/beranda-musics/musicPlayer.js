@@ -8,7 +8,7 @@ const MusicPlayer = ({ music, playIndex, getAudioInstance, onPlayHandler, onPaus
 	const playlist = musicas.map((X) => ({
 		name: X.title,
 		singer: X.Artist.name,
-		cover: `http://localhost:5000/public/${X.thumbnail}`,
+		cover: `https://dumbsound-backend-777.herokuapp.com/public/${X.thumbnail}`,
 		musicSrc: X.attach
     }));
 	

@@ -61,7 +61,7 @@ class MusicList extends Component {
                                                             this.startPlay(index);
                                                         }}  
                                                     >
-                                                        <Image src={`http://localhost:5000/public/${x.thumbnail}`} style={setGambar} /> 
+                                                        <Image src={`https://dumbsound-backend-777.herokuapp.com/public/${x.thumbnail}`} style={setGambar} /> 
                                                         {  plays && index === pos  ? (<span style={setPlayPause2}>||</span>) : (<span style={setPlayPause}>&#9654;</span> )}
                                                         
                                                     </Button>

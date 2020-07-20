@@ -42,7 +42,7 @@ class MusicList extends Component {
                                                                 <Image src={`https://dumbsound-backend-777.herokuapp.com/public/${x.thumbnail}`} style={setGambar} key={x.id} />
                                                             </Button>):
                                                             (<Button onClick={this.props.login} style={{background: "#3A3A3A", borderColor: '#3A3A3A', paddingRight: '10'}}>
-                                                                <Image src={`https://dumbsound-backend-777.herokuapp.com/public/${x.thumbnail}`} style={setGambar} key={x.id} />
+                                                                <Image src={`https://dumbsound-backend-777.herokuapp.com/public/0151214961d6b4c4c87c542e1314ce8a.png`} style={setGambar} key={x.id} />
                                                             </Button>)
                                                         }
                                                     <div className="pt-1">
